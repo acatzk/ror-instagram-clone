@@ -36,6 +36,10 @@
     </section>
 
     <section>
+      <%= form.file_field :images, multiple: true %>
+    </section>
+
+    <section>
       <%= form.submit  class: 'btn btn-primary col-12' %>
     </section>
   <% end %>
